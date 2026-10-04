@@ -8,7 +8,8 @@ This repository contains the complete relational database design (ERD) for Witle
 
 Entity Relationship Diagram
 
-Image
+<img width="690" height="767" alt="image" src="https://github.com/user-attachments/assets/ff5f517c-1045-41da-850a-b3ef0dca9d01" />
+
 Entities were Identified to pinpoint all core business entities and necessary database tables needed for the retail system. The Primary Keys (PK) for unique record identification and Foreign Keys (FK) were also identified as well as their relationships & Cardinality as either One-to-One, One-to-Many, or Many-to-Many.
 
 Brief breakdown of the above ERD:
