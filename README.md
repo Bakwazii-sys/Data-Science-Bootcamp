@@ -17,33 +17,41 @@ Brief breakdown of the above ERD:
 Customer
 • PK: customer_id
 • Attributes: full_name, email, phone_number, date_registered
+
 Customer_Address
 • PK: address_id
 • FK: customer_id
 • Attributes: street_address, city, province
+
 Orders
 • PK: order_id
 • FK: customer_id
 • Attributes: order_date, order_status, total_amount
+
 Order_Item
 • PK: order_item_id
 • FK: order_id, product_id
 • Attributes: item_quantity, unit_price
+
 Product
 • PK: product_id
 • FK: category_id, supplier_id
 • Attributes: product_name, product_description, price, stock_quantity
+
 Payment
 • PK: payment_id
 • FK: order_id
 • Attributes: payment_date, payment_status, payment_method, amount_paid
+
 Delivery
 • PK: delivery_id
 • FK: order_id, address_id
 • Attributes: delivery_date, deilvery_status, tracking_number, courier_name
+
 Supplier
 • PK: supplier_id
 • Attributes: supplier_name, supplier_email, phone_number
+
 Category
 • PK: category_id
 • Attributes: category_name, category_description
